@@ -1,11 +1,15 @@
 
-function printTable(){
-    
-    let numInput = document.querySelector(`#numInput`).value
+function printTable() {
+    let number;
+    let result = "";
+    let number1;
 
-    for( let i = 0; i < 10; i++){
+    number = Number(document.getElementById("number").value);
+    number1 = Number(document.getElementById("number1").value);
+    for(let i = 1; i<= number1; i++){
 
-        console.log(`${numInput} x ${i+1} = ${numInput * (i+1)}`)
-
+    result = (`${result}    <p>    ${number}   x   ${i}   =   ${number * i}    </p>`);
     }
-}
+
+    document.getElementById("result").innerHTML = result;
+  }
