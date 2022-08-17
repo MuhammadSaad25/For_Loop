@@ -10,32 +10,20 @@ h1 {
 .container{
     height: 100%;
     width: 100%;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
 .sub_div{
     padding: 10px;
-    /* margin: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.sub_div label{
-    /* padding: 10px; */
-    /* margin: 10px; */
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-}
-
 button {
-    /* margin: 20px; */
     background-color: #fff;
     border: none;
     color: #111;
@@ -52,7 +40,6 @@ button {
   #number {
     width: 100px;
     padding: 12px 20px;
-    /* margin: 8px 0px 0px 50px; */
     border-radius: 30px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);  
     border: none;
@@ -66,7 +53,6 @@ button {
   #number1 {
     width: 100px;
     padding: 12px 20px;
-    /* margin: 8px 0px 0px 20px; */
     border-radius: 30px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);  
     border: none;
@@ -77,16 +63,6 @@ button {
     box-sizing: border-box;
   }
 
-  /* #number1 {
-    width: 12%;
-    padding: 12px 20px;
-    margin: 8px 0px 0px 20px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  } */
-
   #result {
     display: none;
     font-size: 22px;
@@ -96,7 +72,6 @@ button {
     border-radius: 10px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);  
     box-sizing: border-box;
-    /* display: flex; */
     flex-direction: column;
     align-items: center; 
   }
